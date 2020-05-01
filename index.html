@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+
+    <style>
+        #more {display: none;}
+    </style>
 </head>
 
 <body>
@@ -162,16 +166,71 @@
                             <img src="img/event1.png" alt="image1">
                            
                             <div class="clear"></div>
-                            <h3>Event1</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
+                            <h3>Performer 1</h3>
+                            <p>Known for their banging tunes and their socio-polictical themes,
+                                this popular kerala based hip-hop collective of rappers work on passionate,
+                                gritty and catchy songs in a blend of Malayalam,English and Tamil
+
+                            <span id="dots1">...</span><span id="more1">
+
+                            Here to blow our minds in performance and conversation,<br>
+                                 <b>Reach Out! Fundraiser 2020</b>- presents to you<br>
+                                <b>Arjun(Imbachi)</b>- the rapper,MC,lyricist,vocalist and b-boy extraordinaire from<br>
+                            <b>Street Academics!</b></span></p>
+
+                                <button onclick="myFunction1()" id="myBtn1">Read more</button>
+                                <script>function myFunction1() {
+                                    var dots = document.getElementById("dots1");
+                                    var moreText = document.getElementById("more1");
+                                    var btnText = document.getElementById("myBtn1");
+                                  
+                                    if (dots.style.display === "none") {
+                                      dots.style.display = "inline";
+                                      btnText.innerHTML = "Read more";
+                                      moreText.style.display = "none";
+                                    } else {
+                                      dots.style.display = "none";
+                                      btnText.innerHTML = "Read less";
+                                      moreText.style.display = "inline";
+                                    }
+                                  }</script>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <div class="events_single">
-                            <img src="img/img_1.png" alt="image2">
-                            
-                            <h3>Event2</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
+                            <img src="img/img_1.png" alt="image1" style="height: 240px;">
+                           
+                            <div class="clear"></div>
+                            <h3>Performer 2</h3>
+                            <p>Bringing the whole new meaning to <b>#relable</b> for Malayalis everywhere,
+                                 we know this comedian as the 'Malayali Mother'
+                                  forcing us to see the funny and relatable side of
+                                  the Ammayis we all know and love. Bringing Malayali-orienetd content 
+                                  to the national comedy platform,she has carved a niche for herself
+                                   by humorously showcasing unique cultural quirks so dear to us Malayalis. 
+                            <span id="dots2">...</span><span id="more2">
+                              With free-flowing with and impeccable timing,having worked with big media houses
+                              like <b>ScoopWhoop</b>,<b> MensXP</b> and<b> India Today</b> get ready to share a laugh 
+                              and some bubbling conversation with <b>Prapti Elizabeth</b>
+                               this quarantine! Join us at <b>Reach Out!</b>
+                            </span></p>
+
+                                <button onclick="myFunction2()" id="myBtn2">Read more</button>
+                                <script>function myFunction2() {
+                                    var dots = document.getElementById("dots2");
+                                    var moreText = document.getElementById("more2");
+                                    var btnText = document.getElementById("myBtn2");
+                                  
+                                    if (dots.style.display === "none") {
+                                      dots.style.display = "inline";
+                                      btnText.innerHTML = "Read more";
+                                      moreText.style.display = "none";
+                                    } else {
+                                      dots.style.display = "none";
+                                      btnText.innerHTML = "Read less";
+                                      moreText.style.display = "inline";
+                                    }
+                                  }</script>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-12">
