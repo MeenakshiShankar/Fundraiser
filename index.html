@@ -236,9 +236,36 @@
                     <div class="col-md-4 col-xs-12">
                         <div class="events_single">
                             <img src="img/img_2.png" alt="image3">
-                            
-                            <h3>Event3</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
+                           
+                            <div class="clear"></div>
+                            <h3>Performer 3</h3>
+                            <p>Making music that fills everyone's hearts ans souls are not easy,
+                                but the Masala Coffee makes it look so. With musical arrangements 
+                                that make our heart soar to compositions that feed our soul, Masala Coffee has an indelible
+
+                            <span id="dots3">...</span><span id="more3">
+
+                            Here to blow our minds in performance and conversation,
+                                 <b>Reach Out! Fundraiser 2020</b>- presents to you
+                                <b>Arjun(Imbachi)</b>- the rapper,MC,lyricist,vocalist and b-boy extraordinaire from<br>
+                            <b>Street Academics!</b></span></p>
+
+                                <button onclick="myFunction3()" id="myBtn3">Read more</button>
+                                <script>function myFunction3() {
+                                    var dots = document.getElementById("dots3");
+                                    var moreText = document.getElementById("more3");
+                                    var btnText = document.getElementById("myBtn3");
+                                  
+                                    if (dots.style.display === "none") {
+                                      dots.style.display = "inline";
+                                      btnText.innerHTML = "Read more";
+                                      moreText.style.display = "none";
+                                    } else {
+                                      dots.style.display = "none";
+                                      btnText.innerHTML = "Read less";
+                                      moreText.style.display = "inline";
+                                    }
+                                  }</script>
                         </div>
                     </div>
                 </div>
