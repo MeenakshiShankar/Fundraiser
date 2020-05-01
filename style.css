@@ -611,14 +611,18 @@
 .clear {
     clear: both;
 }
-.footer_carosal_icon .owl-nav{
-    display: none;
-}
 
+.footer_carosal {
+    background: #beb8b8 none repeat scroll 0 0;
+    height: 200px;
+    
+}
 
 .footer_carosal .footer_carosal_icon .item img {
-    width: 150px;
+    width: 200px;
+    padding: 10%;
 }
+
 
 
 .footer {
@@ -627,7 +631,7 @@
 }
 
 .footer .footer-charity-text {
-    max-width: 345px;
+    max-width: 300px;
 }
 
 .footer .footer-charity-text h2 {
