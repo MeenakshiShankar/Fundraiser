@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+
+    <style>
+        #more {display: none;}
+    </style>
 </head>
 
 <body>
@@ -124,61 +128,109 @@
                     <div class="col-md-4 col-xs-12">
                         <div class="events_single">
                             <img src="img/event1.png" alt="image1">
-                           
-                            <div class="clear"></div>
-                            <h3>Event1</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
-                       <div class="middle">
-                                <a class="btn" href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a class="btn" href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </a>
-                                <a class="btn" href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                </a>
-                                </div>
+                           <div class="clear"></div>
+                            <h3>Performer 1</h3>
+                            <p>Known for their banging tunes and their socio-polictical themes,
+                                this popular kerala based hip-hop collective of rappers work on passionate,
+                                gritty and catchy songs in a blend of Malayalam,English and Tamil
 
-                     </div>
+                            <span id="dots1">...</span><span id="more1">
+
+                            Here to blow our minds in performance and conversation,<br>
+                                 <b>Reach Out! Fundraiser 2020</b>- presents to you<br>
+                                <b>Arjun(Imbachi)</b>- the rapper,MC,lyricist,vocalist and b-boy extraordinaire from<br>
+                            <b>Street Academics!</b></span></p>
+
+                                <button onclick="myFunction1()" id="myBtn1">Read more</button>
+                                <script>function myFunction1() {
+                                    var dots = document.getElementById("dots1");
+                                    var moreText = document.getElementById("more1");
+                                    var btnText = document.getElementById("myBtn1");
+                                  
+                                    if (dots.style.display === "none") {
+                                      dots.style.display = "inline";
+                                      btnText.innerHTML = "Read more";
+                                      moreText.style.display = "none";
+                                    } else {
+                                      dots.style.display = "none";
+                                      btnText.innerHTML = "Read less";
+                                      moreText.style.display = "inline";
+                                    }
+                                  }</script>
+                        </div>
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <div class="events_single">
-                            <img src="img/img_1.png" alt="image2">
-                            
-                            <h3>Event2</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
-                        <div class="middle">
-                                <a class="btn" href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a class="btn" href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </a>
-                                <a class="btn" href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                </a>
-                                </div>
+                            <img src="img/img_1.png" alt="image1" style="height: 240px;">
+                           
+                            <div class="clear"></div>
+                            <h3>Performer 2</h3>
+                            <p>Bringing the whole new meaning to <b>#relable</b> for Malayalis everywhere,
+                                 we know this comedian as the 'Malayali Mother'
+                                  forcing us to see the funny and relatable side of
+                                  the Ammayis we all know and love. Bringing Malayali-orienetd content 
+                                  to the national comedy platform,she has carved a niche for herself
+                                   by humorously showcasing unique cultural quirks so dear to us Malayalis. 
+                            <span id="dots2">...</span><span id="more2">
+                              With free-flowing with and impeccable timing,having worked with big media houses
+                              like <b>ScoopWhoop</b>,<b> MensXP</b> and<b> India Today</b> get ready to share a laugh 
+                              and some bubbling conversation with <b>Prapti Elizabeth</b>
+                               this quarantine! Join us at <b>Reach Out!</b>
+                            </span></p>
 
+                                <button onclick="myFunction2()" id="myBtn2">Read more</button>
+                                <script>function myFunction2() {
+                                    var dots = document.getElementById("dots2");
+                                    var moreText = document.getElementById("more2");
+                                    var btnText = document.getElementById("myBtn2");
+                                  
+                                    if (dots.style.display === "none") {
+                                      dots.style.display = "inline";
+                                      btnText.innerHTML = "Read more";
+                                      moreText.style.display = "none";
+                                    } else {
+                                      dots.style.display = "none";
+                                      btnText.innerHTML = "Read less";
+                                      moreText.style.display = "inline";
+                                    }
+                                  }</script>
+
+                            
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <div class="events_single">
                             <img src="img/img_2.png" alt="image3">
-                            
-                            <h3>Event3</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
-                        <div class="middle">
-                                <a class="btn" href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a class="btn" href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </a>
-                                <a class="btn" href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                </a>
-                                </div>
+                           
+                            <div class="clear"></div>
+                            <h3>Performer 3</h3>
+                            <p>Making music that fills everyone's hearts ans souls are not easy,
+                                but the Masala Coffee makes it look so. With musical arrangements 
+                                that make our heart soar to compositions that feed our soul, Masala Coffee has an indelible
+
+                            <span id="dots3">...</span><span id="more3">
+
+                            Here to blow our minds in performance and conversation,
+                                 <b>Reach Out! Fundraiser 2020</b>- presents to you
+                                <b>Arjun(Imbachi)</b>- the rapper,MC,lyricist,vocalist and b-boy extraordinaire from<br>
+                            <b>Street Academics!</b></span></p>
+
+                                <button onclick="myFunction3()" id="myBtn3">Read more</button>
+                                <script>function myFunction3() {
+                                    var dots = document.getElementById("dots3");
+                                    var moreText = document.getElementById("more3");
+                                    var btnText = document.getElementById("myBtn3");
+                                  
+                                    if (dots.style.display === "none") {
+                                      dots.style.display = "inline";
+                                      btnText.innerHTML = "Read more";
+                                      moreText.style.display = "none";
+                                    } else {
+                                      dots.style.display = "none";
+                                      btnText.innerHTML = "Read less";
+                                      moreText.style.display = "inline";
+                                    }
+                                  }</script>
 
                        </div>
                     </div>
@@ -216,6 +268,7 @@
                             </div>
                             <h2><a href="#">Our Programs</a></h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+
                         </div>
                     </div>
                 </div>
@@ -256,33 +309,72 @@
             </div>
         </section>
 
-        
+
+        <section class="footer_carosal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer_carosal_icon owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="img/excel-2019.png" alt="" style="width: 80%;">
+                            </div>
+                            <div class="item">
+                                <img src="img/mec-logo-small.png" alt="">
+                            </div>
+                            
+
+                            <div class="item">
+                                <img src="img/seedslogo.png" alt="" style="width: 80%;">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+
+
        
         <footer class="footer" id ="contact">
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
                         <div class="footer-charity-text">
-                           
+                            <h2>Contact Us</h2>
+                            <p>Feel free to send in your queries to us<br>
+                            Donate Now! and spread love <br>during these difficult times.</p>
                         </div>
                     </div>
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-4 col-sm-5">
+                                
                                 <div class="footer-text one">
+                                      <img src="img/contacts.png" style="border-radius: 30%;width: 50%;margin-bottom: 20%;">                                       
+                                        <ul>
+                                            <li><a href="#"><i class="material-icons">location_on</i>1 Street, derby, FL 2147, USA</a></li>
+                                            <li><a href="#"><i class="material-icons">email</i>dartthemes@gmail.com</a></li>
+                                            <li><a href="#"><i class="material-icons">call</i>+123456789</a></li>
+                                        </ul>
+                                    
                                     
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-3">
-                                <div class="footer-text two">
+                                <div class="footer-text one">
+
+                                    <img src="img/contacts.png" style="border-radius: 30%;width: 50%;margin-bottom: 20%;">
+                                        <ul>
+                                            <li><a href="#"><i class="material-icons">location_on</i>1 Street, derby, FL 2147, USA</a></li>
+                                            <li><a href="#"><i class="material-icons">email</i>dartthemes@gmail.com</a></li>
+                                            <li><a href="#"><i class="material-icons">call</i>+123456789</a></li>
+                                        </ul>
                                     
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="footer-text one">
-                                   
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
