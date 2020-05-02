@@ -702,7 +702,7 @@
 
 .events_section_area .events_single:hover h3 {
     color: #01d262;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .events_section_area .events_single h6 {
