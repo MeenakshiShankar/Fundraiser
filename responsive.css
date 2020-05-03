@@ -69,6 +69,15 @@
     .main-logo {
         text-align: center;
     }
+
+    .reachout{
+        height: auto;
+        padding: 1rem;
+    }
+    .reachout > p{
+        margin: 1rem;
+        font-size: 4vw !important;
+    }
     .carosal-area .text>h3 {
         margin-top: 40px;
     }
@@ -141,5 +150,14 @@
     }
     .carosal_bottom {
         height: auto;
+    }
+    .events_section_area{
+        height: auto;
+    }
+    .our_activity {
+        height: auto;
+    }
+    .our_activity > p{
+        padding: 2rem;
     }
 }
