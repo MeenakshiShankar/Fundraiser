@@ -365,17 +365,26 @@
     }
 }
 .carosal-area {
-    background-image: url("img/demopic.jpg");
+    background-image: url("img/corona_Bckdrop.jpg");
     background-size: cover;
     
 }
 
 .carosal-area .text {
+   
     text-align: center;
     margin-bottom: 50px;
+    
+    
+    
 }
 
+
+
 .carosal-area .text>h3 {
+    background-color: #000;
+    border-radius: 30px;
+    
     color: #fff;
     font-size: 35px;
     font-weight: bold;
@@ -384,6 +393,8 @@
 }
 
 .carosal-area .text>p {
+    background-color: #000;
+    border-radius: 30px;
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
