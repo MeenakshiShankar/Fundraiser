@@ -145,6 +145,17 @@
         font-weight: lighter;
         color: #fff;
     }
+	
+     .footer_carosal .section-wrapper {
+    margin: 40px 0px;
+}
+
+.footer_carosal .item img {
+    margin: auto 0;
+    padding: 2%;
+    max-width: 100%;
+}
+	
 }
 
 
@@ -1045,6 +1056,9 @@
     clear: both;
 }
 
+.section-wrapper {
+    padding : 100px 0;
+    }
 
 .footer_carosal .item img {
     
