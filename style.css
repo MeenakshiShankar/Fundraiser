@@ -1001,16 +1001,24 @@
     clear: both;
 }
 
+
+.footer_carosal .item img {
+    
+    width: 80%;
+    
+    margin-left: 50%;
+    margin-top: 40%;
+    
+    height: 80%;
+}
+
+
 .footer_carosal {
-    background: #beb8b8 none repeat scroll 0 0;
-    height: 200px;
+    background-color: white;
+    height: 400px;
     
 }
 
-.footer_carosal .footer_carosal_icon .item img {
-    width: 200px;
-    padding: 10%;
-}
 
 
 
